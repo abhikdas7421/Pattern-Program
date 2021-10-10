@@ -42,5 +42,43 @@ int main()
         cout << endl;
     }
 
+    cout << endl;
+
+    //Program to print diamond using stars: Given n, print diamond with 2*n-1 rows.
+    for (int i = 1; i < n; i++)
+    {
+        for (int j = i; j <= n; j++)
+        {
+            cout << "  ";
+        }
+        for (int j = 1; j < i; j++)
+        {
+            cout << "* ";
+        }
+        for (int j = 1; j <= i; j++)
+        {
+            cout << "* ";
+        }
+
+        cout << endl;
+    }
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout << "  ";
+        }
+        for (int j = i; j < n; j++)
+        {
+            cout << "* ";
+        }
+        for (int j = i; j <= n; j++)
+        {
+            cout << "* ";
+        }
+
+        cout << endl;
+    }
+
     return 0;
 }
