@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    //Print a solid Rectangle/Square
+    //Program of a solid Square
     int n;
     cin >> n;
 
